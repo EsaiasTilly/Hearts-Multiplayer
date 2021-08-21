@@ -1,0 +1,14 @@
+{
+    "name": "hearts-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ws": "^8.2.0"
+    }
+}

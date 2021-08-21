@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(9, 168, 9);
+}
+
+.player-container {
+    display: block;
+}
+
+.player-container[owned='yes'] {
+    border-bottom: #050 solid 2px;
+}
+
+.player-container[owned='no'] {
+    display: none;
+}
+
+.card-container {
+    display: block;
+}
+
+.card-container > card {
+}
+
+.table {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,26 @@
+:root {
+    --card-size: 0.5;
+}
+
+card {
+    content: '';
+    /*position: absolute;*/
+    display: inline-block;
+    background-color: #fff;
+    border-radius: calc(12px * var(--card-size));
+    background-size: contain;
+    width: calc(148px * var(--card-size));
+    height: calc(230px * var(--card-size));
+    transition: 0.08s ease-out transform;
+}
+
+card[active='yes']:hover,
+card[staticHover='yes'] {
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 1;
+}
+
+card[empty='yes'] {
+    background-image: url('../images/cards/back.png');
+}
